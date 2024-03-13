@@ -22,6 +22,14 @@
                                 </AvatarFallback>
                             </AvatarImage>
                         </Avatar>
+                        <div>
+                            <div class="font-bold">
+                                {{ user?.user_metadata.full_name }}
+                            </div>
+                            <div class="text-sm">
+                                {{ user?.email}}
+                            </div>
+                        </div>
                     </div>
                     <DropdownMenuItem>Profile</DropdownMenuItem>
                     <DropdownMenuItem>Billing</DropdownMenuItem>
